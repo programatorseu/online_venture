@@ -1,4 +1,6 @@
 # Notes 
+![image](https://user-images.githubusercontent.com/3199051/221358397-cf0b2fe7-00bb-4a0f-84f4-6f435ea9d1a0.png)
+
 
 Dzień dobry, 
 
