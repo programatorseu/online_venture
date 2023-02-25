@@ -69,7 +69,15 @@ mysql -u root -p online_venture_api  < data.sql
 5. create .env file in root (.env_example)
 6. run server 
 ```php -S localhost:8888 -t public/```
+or evantually apache config : 
+```apache
+RewriteEngine On
+RewriteBase /
 
+RewriteCond %{THE_REQUEST} /public/([^\s?]*) [NC]
+RewriteRule ^ %1 [L,NE,R=302]
+RewriteRule ^(.*)$ public/index.php?$1 [L,QSA]
+```
 
 **API TABLE endpoints**
 
