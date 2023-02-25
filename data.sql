@@ -1,11 +1,11 @@
-INSERT INTO online_venture_api.authors (name,email) VALUES
+INSERT INTO authors (name,email) VALUES
 	 ('Jose Maria Requilme','requilme@gmail.com'),
 	 ('Pablo Aimar','airma@gmail.com'),
 	 ('Gilberto Silva','gilberto@gmail.com'),
 	 ('juninho pernambucano','pecarbucano@gmail.com'),
 	 ('Fabien Barthez','barthez@gmail.com');
 
-INSERT INTO online_venture_api.articles (title,body,user_id,creation_date) VALUES
+INSERT INTO articles (title,body,user_id,creation_date) VALUES
 	 ('Pierwszy artykul','Wszyscy mówili, że Kazimierz Górski był geniuszem, że to selekcjoner idealny, a to nieprawda. Selekcjonerem został w 1971 r., a rok wcześniej Górnik Zabrze grał w finale Pucharu Zdobywców Pucharów, gdzie 1:2 przegrał z Manchesterem City, a Legia Warszawa odpadła w półfinale Puchar Europy Mistrzów Klubowych z Feyenoordem Rotterdam. W związku z tym Kazio dostał na tacy piłkarzy klasy światowej i udało mu się tego nie zepsuć. Nawet wręcz przeciwnie, jeszcze bardziej ich połączył, skoro Włodzimierz Lubański był świadkiem na ślubie Kazimierza Deyny - wspomina Zarzeczny.',1,'2023-02-25 10:16:00'),
 	 ('Drugi artykul','Z nim było jak z chodzeniem do pracy. Jak się ma kiepskiego szefa, to się nie chce. A jak chłop jest fajny, ciepły, otwarty, to przychodzisz pozytywnie nastawiony. I w takim nastroju piłkarze przyjeżdżali na zgrupowania do Kazia. On nie ingerował w drużynę. Obserwowałem jego pracę z bliska. Ci piłkarze sami sobie byli trenerami. Pozwalał im stworzyć własny mikroklimat do tego stopnia, że nawet nieistotne było dla nich - co rzadko jest przytaczane - że w słynnym meczu na Wembley w 1973 r. to Górski nie wytrzymał napięcia i uciekł do szatni na pięć minut przed jego końcem. Przewaga jednej drużyny nad drugą była tak wielka, jak jeszcze nigdy wcześniej w historii futbolu.',1,'2023-02-25 10:16:00'),
 	 ('Trzeci artykul','W ogóle Kazio nie pracował za dużo. Lubił sobie posiedzieć na koniaczku w hotelu Victoria, i to z kumplami wszelkiej maści. W dzisiejszych czasach to nie do pomyślenia. Byłby głównym celem dla paparazzi. Śmiano się też, że on składy zapisywał na serwetkach, jedynym zresztą papierze, jaki w życiu widział, choć skończył studia. Czasami kelner nieopatrznie serwetkę zabierał i nagle cały skład mu uciekał. Akurat tego na mecz na Wembley nie zabrał. ',2,'2023-02-25 10:16:00'),
