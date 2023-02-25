@@ -39,38 +39,34 @@ I could complete all below steps in short time distance :
 
 **requirements** 
 
-- php 8  - my env plus i might have used constructor promotion
+- php 8 - used constructor promotion
 - composer (autoloading, phpdotenv for configuration)
 - mysql 
 - setup document root to public. Root is structured taking account security measures.
-
+- used: 
 ```
 php -S localhost:8888 -t public/
 ```
+--- 
 
+## Setup
 
-
-**setup**
-
-0. Please create databse `online_venture_api`
-
-1. Please import schema 
+1. Please create databse `online_venture_api`
+2. Please import schema 
 
    ```bash
    mysql -u root -p online_venture_api  < schema.sql
    ```
 
-2. Please import data
-
+3. Please import data
 ```
 mysql -u root -p online_venture_api  < data.sql
 ```
-
-​	run composer dump-autoload
-
-1. Please update .env file to 
-2. Run server
-
+4. run composer install
+`composer install`
+5. create .env file in root (.env_example)
+6. run server 
+```php -S localhost:8888 -t public/```
 
 
 **API TABLE endpoints**
